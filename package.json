@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    
-    "wow": "nodemon --inspect src/server.js"
+    "wow": "nodemon --inspect src/server.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
